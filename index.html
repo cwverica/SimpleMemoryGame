@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <div id="controls">
+      <label>How many matches? <input type="range" id="size" min=3 max=8></label>
+      <input type="button" value="Start Game" id="start"><br>
+      <div class="scores">Score: <b id="score"></b></div>
+      <div class="scores">Best Score: <b id="highScore"></b></div>
+      <input type="button" value="New Game" id="reset">
+    </div>
+    <div id="game">
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
